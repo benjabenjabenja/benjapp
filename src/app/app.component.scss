@@ -1,4 +1,8 @@
+@import '../assets/variables/colores';
+
 .wrapper {
-    width: 100%;
     background-image: url('../assets/background.jpg');
+    min-width: 100%;
+    background: $primary;
+    min-height: auto;
 }

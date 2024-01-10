@@ -1,3 +1,4 @@
+@import './assets/variables/colores';
 /* You can add global styles to this file, and also import other style files */
 *, *:before, *:after{
     box-sizing: border-box;
@@ -25,6 +26,9 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+}
+body {
+	background-color: $background-body;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
